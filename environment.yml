@@ -1,0 +1,12 @@
+name: my_ml_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - scikit-learn
+  - joblib
+  - flake8
+  - pytest
+  - pip
+  - pip:
+    - -r requirements.txt
